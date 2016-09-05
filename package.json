@@ -1,0 +1,46 @@
+{
+  "name": "passport-oauth2-jwt-bearer",
+  "version": "0.1.0",
+  "description": "Passport.js RFC 6750 JWT Bearer Token Strategy with RSA JWKS Key Provider",
+  "private": true,
+  "keywords": [
+    "passport",
+    "bearer",
+    "token",
+    "oauth",
+    "oauth2",
+    "jwt",
+    "jwks",
+    "oidc",
+    "openid_connect",
+    "okta"
+  ],
+  "main": "./lib",
+  "scripts": {
+    "test": "DEBUG=oauth2-jwt-bearer mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcguinness/passport-oauth2-jwt-bearer.git"
+  },
+  "author": {
+    "name": "Karl McGuinness",
+    "email": "dev@karlmcguinness.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mcguinness/passport-oauth2-jwt-bearer/issues"
+  },
+  "homepage": "https://github.com/mcguinness/passport-oauth2-jwt-bearer#readme",
+  "dependencies": {
+    "node-oauth2-bearer-jwt-handler": "https://github.com/mcguinness/node-oauth2-jwt-bearer-token.git",
+    "passport-strategy": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-passport-strategy": "^1.0.0",
+    "mocha": "^2.5.3",
+    "nock": "^8.0.0",
+    "sinon": "^1.17.4"
+  }
+}
