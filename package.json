@@ -1,7 +1,7 @@
 {
   "name": "passport-oauth2-jwt-bearer",
   "version": "0.1.1",
-  "description": "Passport.js RFC 6750 JWT Bearer Token Strategy with RSA JWKS Key Provider",
+  "description": "Passport.js RFC 6750 bearer JSON Web Token (JWT) strategy with RSA JSON Web Key Set (JWKS) key provider",
   "private": true,
   "keywords": [
     "passport",
@@ -33,7 +33,7 @@
   },
   "homepage": "https://github.com/mcguinness/passport-oauth2-jwt-bearer#readme",
   "dependencies": {
-    "node-oauth2-bearer-jwt-handler": "https://github.com/mcguinness/node-oauth2-jwt-bearer-token.git",
+    "oauth2-bearer-jwt-handler": "https://github.com/mcguinness/node-oauth2-bearer-jwt-handler.git",
     "passport-strategy": "^1.0.0"
   },
   "devDependencies": {
